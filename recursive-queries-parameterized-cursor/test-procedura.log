@@ -1,0 +1,39 @@
+SHAKIGRI> BEGIN
+              find_ancestors('Iason', 'mužská');
+          END;
+[2024-03-29 20:25:31] completed in 35 ms
+MUŽSKÁ rodová linie vydry IASON je:
+Ringo
+Nestor
+SHAKIGRI> BEGIN
+              find_ancestors('Iason', 'ženská');
+          END;
+[2024-03-29 20:25:31] completed in 34 ms
+ŽENSKÁ rodová linie vydry IASON je:
+Lilien
+Malvina
+SHAKIGRI> BEGIN
+              find_ancestors('Iason', 'obě');
+          END;
+[2024-03-29 20:25:31] completed in 56 ms
+OBĚ rodové linii vydry IASON jsou:
+Lilien
+Ringo
+Malvina
+Nestor
+Nestor
+Jarmila
+SHAKIGRI> BEGIN
+              find_ancestors('Zoran', 'obě');
+          END;
+[2024-03-29 20:25:31] completed in 40 ms
+OBĚ rodové linii vydry ZORAN jsou:
+Neznamé
+SHAKIGRI> BEGIN
+              find_ancestors('Celestyn', 'obě');
+          END;
+[2024-03-29 20:25:32] [72000][20002]
+[2024-03-29 20:25:32] 	ORA-20002: Otter does not exist.
+[2024-03-29 20:25:32] 	ORA-06512: на  "SHAKIGRI.FIND_ANCESTORS", line 34
+[2024-03-29 20:25:32] 	ORA-06512: на  line 2
+[2024-03-29 20:25:32] Position: 0
