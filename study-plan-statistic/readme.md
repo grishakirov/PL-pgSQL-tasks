@@ -1,4 +1,4 @@
-# Study Plan Statistic (PL/pgSQL)
+# Study Plan Statistic Function
 
 This directory implements a PL/pgSQL function `STUDY_PLAN_STATISTIC` that compares a student’s completed courses (from a CSV) against a specified study plan and returns detailed statistics.
 
